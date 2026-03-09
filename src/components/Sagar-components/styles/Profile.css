@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.routs {
+  border-bottom: 2px solid #fec107;
+  width: 250px;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+section .profile-intro {
+  background: #ececec;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  div {
+    img {
+      width: 30vw;
+    }
+  }
+  div {
+    padding-inline: 50px;
+  }
+}
+section .guidlines-img {
+  background: #212429;
+  color: aliceblue;
+  padding: 90px 90px 50px 90px;
+  border-radius: 25px;
+  img {
+    margin: auto;
+  }
+  p {
+    padding-inline: 70px;
+    color: gray;
+  }
+}
+
+section .habbits {
+  padding: 25px;
+  background: #ececec;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  img {
+    margin: auto;
+    width: 10vw;
+  }
+  div {
+    padding-inline: 25px;
+  }
+}
